@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+p {
+  margin: 5px 0 10px 0;
+}
+
+body {
+  line-height: 1;
+  height: 100%;
+  width: 100%;
+  color: #383b61;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff; // url(your-tiled-image.gif) repeat-x top left;
+  display: flex;
+  flex-direction: column;
+}
+
+// Navigation Styles
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+
+    .header-title {
+      font-size: 1.5rem;
+      font-weight: 800;
+    }
+
+    navigation {
+      display: none;
+      flex-direction: row;
+      margin-left: 10vw;
+
+      a {
+        padding: 0 0.5rem;
+        font-size: 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        svg {
+          margin: 0.25rem;
+          color: red;
+        }
+      }
+    }
+  }
+
+  .header-right {
+    display: none;
+    padding: 1rem;
+    flex-direction: row;
+
+    .button {
+      padding: 0.75rem;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    .header-primary-button {
+      background-color: #383b61;
+      border-radius: 5px;
+      color: #fff;
+    }
+  }
+}
+
+.call-to-action-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+
+  section {
+    max-width: 480px;
+    min-width: 330px;
+    height: 90vh;
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .call-to-action-heading {
+      font-size: 2.9rem;
+      line-height: 1.5;
+    }
+
+    .call-to-action-statement {
+      line-height: 1.8;
+      font-size: 18px;
+    }
+
+    .form-wrapper {
+      margin-top: 2rem;
+      min-width: 330px;
+
+      .call-to-action-email-input {
+        border: none;
+        padding: 1rem;
+        width: 320px;
+        font-size: 16px;
+        border-radius: 10px;
+        background-color: #fff;
+
+        &:focus {
+          border: none;
+        }
+      }
+
+      .call-to-action-submit-button {
+        background-color: #2340c3;
+        padding: 1em 1.5rem;
+        border-radius: 5px;
+        color: white;
+        font-weight: 800;
+        border: none;
+        width: 110px;
+        margin-left: -119px;
+      }
+    }
+
+    .download-button-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 2rem;
+      width: 317px;
+
+      .download-label {
+        height: 60px;
+        background-color: #2340c3;
+        width: 120px;
+      }
+    }
+  }
+}

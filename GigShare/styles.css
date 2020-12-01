@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Share:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #a2a3ab;
+  padding: 1em;
+}
+
+body .page-wrapper {
+  background: #e5e6e7;
+  padding: 1em;
+  border-radius: 25px;
+  min-height: 100vh;
+  color: white;
+}
+
+body .page-wrapper section {
+  background: #636c78;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+body .page-wrapper section header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em 1.5em;
+}
+
+body .page-wrapper section header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .page-wrapper section header .logo .logo-img {
+  width: 55px;
+  height: 38px;
+  margin-right: 0.5em;
+}
+
+body .page-wrapper section header .logo h1 {
+  font-family: "Share", cursive;
+}
+
+body .page-wrapper section header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .page-wrapper section header ul li {
+  list-style: none;
+}
+
+body .page-wrapper section header ul li a {
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  color: #e5e6e7;
+}
+
+body .page-wrapper section header .header-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .page-wrapper section header .header-right a {
+  padding: 5px 15px;
+  margin: 0 5px;
+  color: #e5e6e7;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+body .page-wrapper section header .header-right .primary {
+  border: 1px solid #e5e6e7;
+  border-radius: 5px;
+}
+
+body .page-wrapper section .call-to-action-wrapper {
+  width: 650px;
+  padding: 2em;
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .page-wrapper section .call-to-action-wrapper h2 {
+  text-align: center;
+  font-family: "Share", cursive;
+  font-weight: 400;
+  font-size: 4.2em;
+  margin: 0.5em;
+}
+
+body .page-wrapper section .call-to-action-wrapper p {
+  margin: 0.5em;
+}
+
+body .page-wrapper section .call-to-action-wrapper .dotted-outline {
+  margin: 1em;
+  border-radius: 50px;
+  border: 2px dashed #74808d;
+}
+
+body .page-wrapper section .call-to-action-wrapper .upload-container {
+  margin: 0.5em;
+  padding: 0.5em 3em;
+  background: #74808d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 40px;
+}
+
+body .page-wrapper section .call-to-action-wrapper .upload-container .add-icon-wrapper {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #fff;
+  color: #74808d;
+  font-size: 2em;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0.5em;
+}
+
+body .page-wrapper section .call-to-action-wrapper .upload-container h4 {
+  font-weight: 600;
+}
+
+body .page-wrapper section .call-to-action-wrapper .upload-container p {
+  font-weight: 200;
+}
+/*# sourceMappingURL=styles.css.map */
